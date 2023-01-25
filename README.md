@@ -181,9 +181,9 @@ user.accounts.holds account_id
 ----
 ```ruby
 # Inner Transfer
-user.accounts.inner_transfer client_oid, pay_account_id, rec_account_id, amount
+user.accounts.inner_transfer client_oid, currency, from, to, amount, options = {}
 ```
-* required params: client_oid, pay_account_id, rec_account_id, amount
+* required params: client_oid, currency, from, to, amount
 
 ##### Deposits
 ----
